@@ -13,8 +13,8 @@ class WriterTest extends TestCase
     private $reader;
 
     protected function setUp(
-        $options = array(),
-        $messages = array()
+        $options = [],
+        $messages = []
     ) {
         $this->writer = new Writer($options);
         $this->writer->encode($messages);

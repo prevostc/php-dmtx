@@ -41,7 +41,7 @@ abstract class AbstractDmtx
         return $this->options[$argument];
     }
 
-    protected function getProcess(string $cmd, array $extras = [], $input = null)
+    protected function getProcess($cmd, array $extras = [], $input = null)
     {
         $cmdArguments = [$cmd];
 
@@ -95,7 +95,7 @@ abstract class AbstractDmtx
         return null;
     }
 
-    protected function run(string $cmd, $input = null, array $extras = [])
+    protected function run($cmd, $input = null, array $extras = [])
     {
         $process = $this->getProcess($cmd, $extras, $input);
 
