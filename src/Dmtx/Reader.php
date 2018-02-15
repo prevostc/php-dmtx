@@ -2,7 +2,6 @@
 
 namespace Dmtx;
 
-use Symfony\Component\Process\Process;
 use Symfony\Component\OptionsResolver\OptionsResolver;
 
 class Reader extends AbstractDmtx

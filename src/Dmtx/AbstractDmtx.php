@@ -41,7 +41,7 @@ abstract class AbstractDmtx
         return $this->options[$argument];
     }
 
-    protected function getProcess(string $cmd, array $extras = [], $input = null): Process
+    protected function getProcess(string $cmd, array $extras = [], $input = null)
     {
         $cmdArguments = [$cmd];
 
